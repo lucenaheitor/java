@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Calculo.java&apos; to &apos;rectangle.Main.java&apos;&#x0D;&#x0A;- Original project: &apos;tipos_primitivos&apos;&#x0D;&#x0A;- Destination element: &apos;rectangle.Main.java&apos;&#x0D;&#x0A;- Original element: &apos;Calculo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Retctangle/src&lt;rectangle{Main.java" element1="Calculo.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1649079043422" units="0" version="1.0"/>
+</session>

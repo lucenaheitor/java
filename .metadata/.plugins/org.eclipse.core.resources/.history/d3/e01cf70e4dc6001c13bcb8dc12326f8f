@@ -1,0 +1,39 @@
+package exercicio3;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+public class Prinicipal {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		List<Employee> list = new ArrayList<>();
+		
+		System.out.println("How many employees will be registrade? ");
+		int n = teclado.nextInt();
+		
+		for (int i =0; i<n; i++) {
+			System.out.println("Employee # " + (i + 1) +  ":");
+			System.out.println("Id: ");
+			Integer id = teclado.nextInt();
+			System.out.println("name: ");
+			teclado.nextLine();
+			String name = teclado.nextLine(); 
+			System.out.println("Salary: ");
+			Double salary =  teclado.nextDouble();
+			
+			Employee emp = new Employee(id,  name, salary);
+			
+			
+			list.add(emp);
+			
+		}
+		
+		
+	}
+
+}

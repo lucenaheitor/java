@@ -1,0 +1,23 @@
+package array;
+
+import java.util.ArrayList;
+
+public class CarrosNaGaragem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		ArrayList<String>  carros = new ArrayList();
+		
+		carros.add("SURUBA");
+		carros.add("Ferrari");
+		carros.add("Lambo");
+		
+		
+		System.out.println(carros);
+		
+
+	}
+
+}

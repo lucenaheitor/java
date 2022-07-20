@@ -1,0 +1,34 @@
+package rooms;
+
+import java.util.Scanner;
+
+public class Rooms {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner tc = new Scanner(System.in);
+		
+		Rent[] room = new Rent[10];
+		
+		
+		System.out.println(" How many rooms will be rented? ");
+		int rented = tc.nextInt();
+		
+		for( int i=1; i<= rented; i++) {
+			System.out.println("Rent #: " + i);
+			System.out.println("Name: ");
+			String name = tc.nextLine();
+			System.out.println("Email: ");
+			String email = tc.nextLine();
+			System.out.println("Room: ");
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

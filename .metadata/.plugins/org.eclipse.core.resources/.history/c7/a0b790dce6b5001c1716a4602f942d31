@@ -1,0 +1,29 @@
+package salario;
+
+import java.util.Scanner;
+
+public class Salary {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new  Scanner(System.in);
+		
+		Calculo c1 = new Calculo();
+		
+		System.out.print("Name: ");
+		c1.name = teclado.nexLine();
+		System.out.print("Gross Salary: ");
+		c1.grossSalary = teclado.nextDouble();
+		System.out.print("Tax: ");
+		c1.tax = teclado.nextDouble();
+		
+		
+		System.out.println("Employee: " + c1);
+		System.out.println("Wich percentage to increase salary: " + c1.tax);
+		
+		
+		
+
+	}
+
+}

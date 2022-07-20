@@ -1,0 +1,5 @@
+package controle_remoto;
+
+public interface Controlador {
+
+}

@@ -1,0 +1,16 @@
+package ultraemojicombat;
+
+public class UltrEmojiCombate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Lutador lutador[] = new Lutador[6];
+		
+		lutador[0]  = new Lutador( "Pretty Boy", "Fraça", 31, 1.75f, 90.9f, 11, 2,1);
+		
+		lutador[0].apresentar();
+		lutador[0].status();
+
+	}
+
+}

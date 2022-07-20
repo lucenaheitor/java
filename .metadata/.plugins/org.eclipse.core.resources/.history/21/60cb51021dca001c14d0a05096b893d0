@@ -1,0 +1,22 @@
+package matriz;
+
+import java.util.Scanner;
+
+public class Matriz {
+
+	public static void main(String[] args) {
+		 Scanner tc = new Scanner(System.in);
+		 
+		 int n  = tc.nextInt();
+		 int [][] mat = new int [n][n];
+		 
+		 
+		 
+		 
+		 
+		 
+		 tc.close();
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package array;
+
+import java.util.Scanner;
+
+public class CarrosNaGaragem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		/*ArrayList<String>  carros = new ArrayList<String>();
+		
+		carros.add("SURUBA");
+		carros.add("Ferrari");
+		carros.add("Lambo");
+		
+		
+		System.out.println(carros);*/
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		//String myString = scanner.next();
+		int myInt = scanner.nextInt();
+		int myInt2 = scanner.nextInt();
+		scanner.close();
+
+		System.out.println("myString is: " + myString);
+		System.out.println("myInt is: " + myInt);
+		
+
+	}
+
+}

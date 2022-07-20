@@ -1,0 +1,10 @@
+package classe_metodo;
+
+public class ClasseMetodo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

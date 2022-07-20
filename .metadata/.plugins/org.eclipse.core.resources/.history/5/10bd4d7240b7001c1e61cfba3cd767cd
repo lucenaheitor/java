@@ -1,0 +1,9 @@
+package controle_remoto;
+
+public class ControleRemooto {
+	
+	private int volume;
+	private boolean ligado;
+	
+
+}

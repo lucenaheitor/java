@@ -1,0 +1,10 @@
+package tipos_primitivos2;
+
+public class TesteTipos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

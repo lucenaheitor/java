@@ -1,0 +1,51 @@
+package projeto_final;
+
+public class Usuario extends Pessoa {
+
+	private  static float exp;
+	private String login;
+	private int totAssistidos;
+	
+	
+	public Usuario(String nome, int idade,  String sexo, String login) {
+		super(nome, idade, sexo, exp);
+				this.login = login;
+				this.totAssistidos = 0;
+		
+	}
+	
+	
+	
+	public void viuMaisUm() {
+		
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public int getTotAssistidos() {
+		return totAssistidos;
+	}
+
+	public void setTotAssistidos(int totAssistidos) {
+		this.totAssistidos = totAssistidos;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Usuario [login=" + super.toString() + login + ", totAssistidos=" + totAssistidos + "]";
+	}
+	
+	
+	
+	
+	
+
+}

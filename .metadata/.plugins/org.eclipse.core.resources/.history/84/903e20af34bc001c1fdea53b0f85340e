@@ -1,0 +1,10 @@
+package exercio_livro;
+
+public class Livro {
+	private String tiulo;
+	private String autor;
+	private int totalPaginas;
+	private int pagAtual;
+	private boolean aberto;
+
+}

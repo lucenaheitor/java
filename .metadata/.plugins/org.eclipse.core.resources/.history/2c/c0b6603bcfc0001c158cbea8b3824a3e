@@ -1,0 +1,11 @@
+package poliformismo_sobrecarga;
+
+public class Cachorro  extends Lobo{
+	
+	
+	@Override
+	public  void emitirSom() {
+		System.out.println("latir");
+	}
+
+}

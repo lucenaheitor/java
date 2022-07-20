@@ -1,0 +1,22 @@
+package exercio_livro;
+
+public class Pessoa {
+	private String nome;
+	private int idade;
+	private  String sexo;
+	
+	public void fazerAniversario() {
+		this.idade++;
+		
+	}
+
+	public Pessoa(String nome, int idade, String sexo) {
+		super();
+		this.nome =nome;
+		this.idade = idade;
+		this.sexo = sexo;
+	}
+	
+	
+
+}

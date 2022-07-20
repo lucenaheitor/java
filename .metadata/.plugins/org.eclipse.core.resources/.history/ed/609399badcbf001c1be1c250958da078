@@ -1,0 +1,25 @@
+package herança02;
+
+public class Bolsista  extends Aluno{
+	private  int bolsa;
+	
+	public void renovarBolsa() {
+		System.out.println("Bolsa renovada: " + this.setNome());
+		
+	}
+	@Override
+	public  void pagarMensalidade() {
+		
+	}
+	public int getBolsa() {
+		return bolsa;
+	}
+	public void setBolsa(int bolsa) {
+		this.bolsa = bolsa;
+	}
+	
+	
+	
+
+}
+

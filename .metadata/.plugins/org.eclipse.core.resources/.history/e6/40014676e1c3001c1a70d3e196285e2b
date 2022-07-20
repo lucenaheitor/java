@@ -1,0 +1,30 @@
+package projeto_final;
+
+public class Usuario {
+	private String login;
+	private int totAssistidos;
+	
+	public void viuMaisUm() {
+		
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public int getTotAssistidos() {
+		return totAssistidos;
+	}
+
+	public void setTotAssistidos(int totAssistidos) {
+		this.totAssistidos = totAssistidos;
+	}
+	
+	
+	
+
+}

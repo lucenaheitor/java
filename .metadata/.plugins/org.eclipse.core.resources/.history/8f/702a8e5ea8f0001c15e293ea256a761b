@@ -1,0 +1,23 @@
+/*Generics: permitem que classes, interface e metodos possam  ser parametrizados por tipo.
+ * beneficifios:
+ * Reuso
+ *  type safety
+ *  peformance
+ *  uso em coleção
+ *  
+ *  List<String> list = new Arraylist<>();
+ *  list.add("Maria");
+ *  String name list.get(0);
+ */
+
+
+
+
+package generic_set_map1;
+
+public class Gneric {
+
+	public static void main(String[] args) {
+		
+	}
+}

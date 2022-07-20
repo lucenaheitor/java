@@ -1,0 +1,24 @@
+package model.entities;
+
+import java.util.Date;
+
+public class CarRental {
+	private Date star;
+	private Date finish;
+	
+	private Vehicle vehicle;
+	private Invoice invoice;
+	
+	public CarRental() {
+	}
+
+	public CarRental(Date star, Date finish, Vehicle vehicle) {
+		
+		this.star = star;
+		this.finish = finish;
+		this.vehicle = vehicle;
+	}
+	
+	
+
+}

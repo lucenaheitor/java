@@ -1,0 +1,10 @@
+package herança01;
+
+public class ProjetoPessoa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
